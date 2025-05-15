@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heavenly Gospel Ministry</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 2rem;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-around;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      flex: 1 1 280px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Heavenly Gospel</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="about.html">About</a>
+      <a href="ministries.html">Ministries</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Preaching the Gospel to All Nations</h1>
+  </div>
+
+  <section>
+    <h2 class="section-title">Our Mission</h2>
+    <p>
+      Heavenly Gospel exists to spread the message of Jesus Christ, disciple believers, support communities, and raise a generation filled with the Spirit of God through love, prayer, and truth.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Ministries Preview</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Youth Ministry</h3>
+        <p>Empowering young people with the Word of God to lead purposeful lives.</p>
+      </div>
+      <div class="card">
+        <h3>Evangelism</h3>
+        <p>Taking the Gospel to homes, streets, and nations.</p>
+      </div>
+      <div class="card">
+        <h3>Worship & Prayer</h3>
+        <p>Raising altars of pure worship and intercession.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Upcoming Events</h2>
+    <p>Check back soon for the latest worship nights, youth fellowships, and community outreaches!</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Testimony</h2>
+    <p>"Since joining Heavenly Gospel, my life has transformed spiritually. Glory to God!" – Mary A.</p>
+  </section>
+  <button id="toggle-theme">Toggle Theme</button>
+
+  <footer>
+    <p>&copy; 2025 Heavenly Gospel Ministry. All rights reserved.</p>
+    <p>Follow us on Facebook | Instagram | YouTube</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
